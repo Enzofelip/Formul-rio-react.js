@@ -32,11 +32,11 @@
 }
 
 .avalieition svg{
-    fill:rgb(255,215,0);
+    fill:rgb(255, 215, 0);
 }
 
 .concluido svg{
-    fill:rgb(0.255.0);
+    fill:rgb(0,255,0);
 }
 @media (max-width:410px){
     .etapas{
