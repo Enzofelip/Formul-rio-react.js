@@ -13,12 +13,12 @@ const MarcadorEtapas = ({mudarStep}) => {
 
             <div className={`etapa ${mudarStep + 1 > 1 ? 'active' : "" }`}>
                 <AiOutlineStar/>
-                <p>Identificação</p>
+                <p>Avaliação</p>
             </div>
 
             <div className={`etapa ${mudarStep + 1 > 2 ? 'active' : "" }`}>
                 <FiSend/>
-                <p>Identificação</p>
+                <p>Envio</p>
             </div>
         </div>
     )
