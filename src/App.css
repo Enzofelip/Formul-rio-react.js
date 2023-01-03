@@ -1,0 +1,101 @@
+
+
+.header{
+    text-align: center;
+    margin-top:2rem;
+}
+
+.header h1{
+    margin-bottom:1rem;
+    font-size:2rem;
+    margin-top:1rem;
+}
+
+.header p{
+    margin-bottom:2rem;
+}
+
+/* Formulario */
+
+.form-container{
+    max-width:600px;
+    max-height: 550px;
+    margin:0 auto;
+    padding:4.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color:#fff;
+}
+
+.form-container form{
+    max-width:400px;
+    margin:0 auto;
+  
+}
+
+.inputs-container{
+    min-height: 280px;
+   
+}
+
+.form-control{
+    display:flex;
+    flex-direction:column;
+    gap:0.6rem;
+    margin-bottom:5rem;
+}
+
+.form-control label{
+    font-weight: bold;
+    font-size:0.9rem;
+    color:#777;
+}
+
+.form-control input, textarea{
+    border:none;
+    padding:0.6rem;
+    border-radius:5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0;;
+}
+
+.form-control textarea{
+    height:100px;
+}
+
+/* Action */
+
+.action{
+    display:flex;
+    justify-content: flex-end;
+    gap:1rem;
+}
+
+.action button{
+    border:none;
+    border-radius:5px;
+    padding:10px;
+    display:flex;
+    align-items:center;
+    cursor: pointer;
+    gap:0.5rem;
+    transition:0.5s;
+}
+
+.action button:hover{
+    background-color:#777
+}
+
+@media (max-width:380px){
+
+   
+    .form-control input, textarea{
+        width:90%;
+        background-color: blue;
+    }
+}
+
+@media (max-width:400px){
+    .action{
+        display:flex;
+        justify-content: center;
+    }
+}

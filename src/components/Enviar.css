@@ -1,0 +1,28 @@
+.enviar-container{
+    text-align: center;
+}
+
+.enviar-container h2{
+    margin-bottom:1rem;
+}
+
+.enviar-container p {
+    font-size:0.9rem;
+    margin-bottom:0.5rem
+}
+
+.enviar-container h3{
+    margin-bottom:1rem 0;
+}
+
+.enviar-date{
+    text-align:left;
+}
+
+.enviar-date svg{
+    margin-left:5px;
+}
+
+.enviar-date span{
+    font-weight: bold;
+}

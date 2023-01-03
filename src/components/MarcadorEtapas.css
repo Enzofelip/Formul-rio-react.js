@@ -1,0 +1,66 @@
+.etapas{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:4rem;
+    max-width: 400px;
+    margin:0 auto;
+    position:relative;
+    margin-bottom:1.7rem;
+}
+
+.etapas::after{
+    content: "";
+    width:380px;
+    border-bottom:1px solid #ccc;
+    position:absolute;
+    top:20px;
+}
+
+.etapa{
+    text-align:center;
+    background-color:#fff;
+    z-index:1;
+}
+
+.etapa svg{
+    font-size:2rem;
+}
+
+.active svg{
+    fill:rgb(38, 0, 255);
+}
+
+@media (max-width:410px){
+    .etapas{
+        gap:2rem;
+    }
+    
+    .etapas::after{
+        width:280px;
+    }
+
+    .etapa svg{
+        font-size:1.5rem;
+    }
+
+    .etapa p{
+        font-size:0.90rem;
+    }
+
+}
+
+@media (max-width:320px){
+    .etapas{
+        gap:1rem;
+    }
+
+    .etapas::after{
+        width:180px;
+    }
+
+    .etapa p{
+        font-size: 0.70rem;
+    }
+}
+
