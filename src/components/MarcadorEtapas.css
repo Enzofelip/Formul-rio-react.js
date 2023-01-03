@@ -31,6 +31,13 @@
     fill:rgb(38, 0, 255);
 }
 
+.avalieition{
+    fill:#ffb703
+}
+
+.concluido{
+    fill:#25a249
+}
 @media (max-width:410px){
     .etapas{
         gap:2rem;
