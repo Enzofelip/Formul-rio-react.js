@@ -11,7 +11,7 @@
 
 .etapas::after{
     content: "";
-    width:320px;
+    width:315px;
     border-bottom:1px solid #ccc;
     position:absolute;
     top:20px;
