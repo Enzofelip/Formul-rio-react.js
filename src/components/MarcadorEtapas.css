@@ -36,7 +36,7 @@
 }
 
 .concluido svg{
-    fill:rgb(0,0,255);
+    fill:rgb(0,255,0);
 }
 @media (max-width:410px){
     .etapas{
